@@ -1,0 +1,17 @@
+name: ArtifactTest
+version: 1.0-SNAPSHOT
+main: me.tmanti.artifacttest.ArtifactTest
+api-version: 1.13
+commands:
+  add:
+    description: "adds to attribute"
+    usage: "/add [amount]"
+  addscalar:
+    description: "scalar add"
+    usage: "/scalar [amount]"
+  multiplyscalar:
+    description: "scalar multiplication"
+    usage: "/multiplyscalar [amount]"
+  getTest:
+    description: "test stick"
+    usage: "/getTest [amount]"
